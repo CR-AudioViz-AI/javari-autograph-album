@@ -1,7 +1,7 @@
 "use client";
 // app/page.tsx — Javari Autograph Album · CR AudioViz AI · EIN 39-3646201 · May 2026
 import { useState } from "react";
-const T=[{"i": "\ud83d\udd0d", "l": "Authentication", "d": "Autograph authentication tips", "h": "/auth"}, {"i": "\ud83d\udcb0", "l": "Valuation", "d": "Autograph valuations", "h": "/value"}, {"i": "\ud83d\udccb", "l": "Collection", "d": "Track your items", "h": "/collection"}, {"i": "\u270d\ufe0f", "l": "Listing Writer", "d": "Marketplace listings", "h": "/listing"}];
+const T=[{"i": "\ud83d\udd0d", "l": "Authentication", "d": "Autograph authentication", "h": "/auth"}, {"i": "\ud83d\udcb0", "l": "Valuation", "d": "Market valuations", "h": "/value"}, {"i": "\ud83d\udccb", "l": "Collection", "d": "Track your items", "h": "/collection"}, {"i": "\u270d\ufe0f", "l": "Listing Writer", "d": "Marketplace listings", "h": "/listing"}];
 export default function P() {
   const [i,setI]=useState(""); const [o,setO]=useState(""); const [l,setL]=useState(false);
   async function go() { if(!i.trim())return; setL(true);setO("");
